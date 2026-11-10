@@ -29,6 +29,8 @@
 | firmware\fxup.zip | Исправления совместимости Fx0, включая boot, Bluetooth и NFC |
 | research\install26.sh | Проверенный скрипт установки из TWRP |
 
+Скачать можно по ссылке - http://nontec.ru/share/tools.zip
+
 Подготовленный tar.gz - наш промежуточный установочный архив, не ZIP для кнопки Install в TWRP. Скрипт install26.sh рассчитан именно на него. Не подменяйте его исходным архивом Gecko.
 
 Архивные исходники и инструкция сообщества: https://github.com/stephanfriedrich/ffos_on_lgfx0 . Там лежат Gaia, Gecko, fxup и материалы по fastboot/TWRP. Наш путь отличается: используется временный запуск TWRP и подготовленный архив вместо выполнения старого shallow_flash.sh в Windows.
